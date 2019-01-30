@@ -1,4 +1,5 @@
 class SchoolClassesController < ApplicationController
+<<<<<<< HEAD
   def create
     @school_class = SchoolClass.new(params.require(:school_class))
     @school_class.save
@@ -22,4 +23,6 @@ class SchoolClassesController < ApplicationController
     @school_class = SchoolClass.new
   end
 
+=======
+>>>>>>> 1c57ecb2283b789e99bb217a2a1c6f99e5a5acd2
 end
